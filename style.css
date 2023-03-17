@@ -1,80 +1,126 @@
-body{
-    margin: 0px;
-}
-
-#decription{
-    /* overflow: scroll; */
-    height: 100px;
-}
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
+/* Set the font family and size for the entire document */
+body {
+    font-family: 'Patua One', sans-serif;
     font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    /* background-color: #007bff; */
-    background-image: linear-gradient(blue, green);
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .btn:hover {
-    background-color: #0062cc;
-  }
-  
-
-h1{
-    font-size: 40px;
-    font-family: 'Patua One', cursive;
-}
-#span{
-    color: rgb(201, 9, 3);
-}
-
-
-.half-width{
-    width: 35%;
-    float: left;
-    margin-left: 5%;
-    padding: 2%;
-}
-
-.half-width img{
-    width: 85%;
-    border-radius: 500px;
-    margin-left: 250px;
-}
-
-.top-banner{
-    background-image: url(images/top-banner.png);
-    height: 600px;
-    border: 2px solid red;
-    background-repeat: no-repeat;
-}
-.bottom-banner{
-    background-image: url(images/dream-bg.png);
-    height: 600px;
-    border: 2px solid rgb(66, 5, 220);
-    background-repeat: no-repeat;
-    background-position: right;
-}
-.second-half{
-    width: 35%;
-    float: left;
-    margin-left: 5%;
-    padding: 2%;
-    height: 1000px;
-
-}
-.second-half img{
-    width: 85%;
-    border-radius: 50%;
-    /* margin-left: 250px; */
-    height: 50%;
-}
-section{
+    line-height: 1.5;
+    }
+    
+    /* Set the background color for the top banner section */
+    .top-banner {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    }
+    
+    /* Style the headings and description text in the top banner */
+    .top-banner h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    }
+    
+    #span {
+    color: #0f9d58;
+    }
+    
+    .top-banner h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    }
+    
+    #description {
+    font-size: 1.2rem;
+    font-weight: 300;
+    }
+    
+    /* Style the profile image in the top banner */
+    #profile {
+    width: 100%;
+    max-width: 500px;
+    border-radius:50px;
+    }
+    
+    /* Set the background color for the bottom banner section */
+    .bottom-banner {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    }
+    
+    /* Style the headings and description text in the bottom banner */
+    .bottom-banner h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    }
+    
+    .bottom-banner h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    }
+    
+    .bottom-banner p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    }
+    
+    /* Style the profile image in the bottom banner */
+    #profile2 {
+    width: 100%;
+    max-width: 500px;
+    border-radius:50px;
+    }
+    
+    /* Style the experience area */
+    .experience-area {
+    background-color: #f1f1f1;
+    padding: 50px;
+    }
+    
+    .experience-area h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    }
+    
+    .single-experience {
+    margin-bottom: 40px;
+    /* float: left; */
+    display: flex;
+    }
+    
+    .single-experience h2 {
+    font-size: 2rem;
     margin-bottom: 10px;
-}
+    }
+    
+    .single-experience h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    }
+    
+    .single-experience p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    }
+    
+    /* Style the "Hire Me" and "Know more about me" buttons */
+    .btn {
+    display: inline-block;
+    background-color: #0f9d58;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-top: 20px;
+    }
+    
+    .btn:hover {
+    background-color: #0a7043;
+    color: #fff;
+    }
