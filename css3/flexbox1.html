@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .navigation{
+        display: flex;
+        background-color: aqua;
+        width: auto;
+        height: 50px;
+        justify-content:flex-start;
+        flex-flow: row wrap;
+        margin: 0;
+        list-style: none;        
+    }
+
+    .navigation a {
+  display: block; /* Makes the link a block element */
+  font-size: 24px; /* Sets the font size to 24 pixels */
+  font-weight: bold; /* Makes the text bold */
+  text-decoration: none; /* Removes the underline from the link */
+  color: white; /* Sets the text color to dark gray */
+  /* margin: 10px; Adds some space below the link */
+  padding: 10px;
+
+}
+
+
+.navigation a:hover {
+  background: #1565C0;
+}
+/* 
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+} */
+
+</style>
+
+</head>
+<body>
+    <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+</body>
+</html>
